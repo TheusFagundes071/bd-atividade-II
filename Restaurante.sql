@@ -21,8 +21,8 @@ USE Restaurante;
 CREATE TABLE Restaurante.Clientes(
 ID int(30) AUTO_INCREMENT PRIMARY KEY,
 Nome VARCHAR(255) NOT NULL,
-Email VARCHAR(255)NOT NULL,
-Telefone VARCHAR(23)NOT NULL
+Email VARCHAR(255)  unique NOT NULL,
+Telefone VARCHAR(23)  unique NOT NULL
 );
 
 -- Criar Tabela
