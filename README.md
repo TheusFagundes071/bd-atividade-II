@@ -20,3 +20,14 @@ Campos: ComentarioID (Chave Primária), ArtigoID (Chave Estrangeira referenciand
 Implementação: 
 Crie as instruções SQL para criar essas duas tabelas com os relacionamentos apropriados.
 Insira 05 registros para cada tabela criada.
+
+Exercício 3: Gerenciando Departamentos e Funcionários
+Imagine um sistema de gerenciamento de recursos humanos para uma empresa com as tabelas "Departamentos" e "Funcionários". Cada departamento pode ter vários funcionários, mas cada funcionário está associado a apenas um departamento.
+
+Tabela "Departamentos":
+Campos: DepartamentoID (Chave Primária), NomeDepartamento
+Tabela "Funcionários": 
+Campos: FuncionarioID (Chave Primária), Nome, Cargo, Salario, DepartamentoID (Chave Estrangeira referenciando DepartamentoID na tabela Departamentos)
+Implementação: 
+Crie as instruções SQL para criar essas duas tabelas com os relacionamentos apropriados.
+Insira 05 registros para cada tabela criada.
